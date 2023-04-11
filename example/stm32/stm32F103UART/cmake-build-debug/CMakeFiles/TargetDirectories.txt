@@ -1,0 +1,3 @@
+/home/th0m/dev/project/ring_buffer/example/stm32/stm32F103UART/cmake-build-debug/CMakeFiles/stm32F103UART.elf.dir
+/home/th0m/dev/project/ring_buffer/example/stm32/stm32F103UART/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/th0m/dev/project/ring_buffer/example/stm32/stm32F103UART/cmake-build-debug/CMakeFiles/rebuild_cache.dir

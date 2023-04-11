@@ -1,0 +1,25 @@
+# ninja log v5
+79	137	1680954031655830496	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj	9db2564093baa0a8
+2	46	1680957509824437431	CMakeFiles/stm32F103UART.elf.dir/Inc/lib/buffer/buffer_ring.c.obj	f3254073fc8ffeb8
+173	181	1680875942698702836	CMakeFiles/stm32F103UART.elf.dir/Startup/startup_stm32f103c8tx.s.obj	ef04a5f7b631e59b
+56	120	1680954031635830758	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj	9afe26c9e4b4d82a
+45	72	1680957716497810588	stm32F103UART.elf	687cf95006121e62
+119	257	1680954031771828977	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj	1f99d4453b7c7256
+0	45	1680957716477810470	CMakeFiles/stm32F103UART.elf.dir/Src/main.c.obj	d966d7080d89ca6
+1	73	1680954031587831386	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj	68356b021f883a59
+1	84	1680954031599831229	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj	c37091e6c6918e01
+2	79	1680954031595831281	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	d9f881968735ccd6
+84	122	1680954031639830705	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj	4f98f12261291c3b
+59	118	1680954031635830758	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj	5f1e1df3e9426db7
+1	46	1680957509828437461	CMakeFiles/stm32F103UART.elf.dir/Src/stm32f1xx_hal_msp.c.obj	9ba03f4764852b09
+0	57	1680954031575831543	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	6c4b6b4c608fce3f
+120	159	1680954031675830234	CMakeFiles/stm32F103UART.elf.dir/Src/syscalls.c.obj	fc9586fb894522da
+1	46	1680957509824437431	CMakeFiles/stm32F103UART.elf.dir/Src/stm32f1xx_it.c.obj	641c65821409e9db
+57	99	1680954031615831019	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj	f0dc82098d70b596
+99	136	1680954031651830548	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj	71d1f8152cadfa0c
+0	3	0	clean	8d318394a7036765
+1	59	1680954031575831543	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj	5162fb365dc4931a
+145	164	1680875942682703589	CMakeFiles/stm32F103UART.elf.dir/Src/sysmem.c.obj	d2f3050f70c75089
+1	56	1680954031571831595	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	321b0d0bb5310df4
+73	162	1680954031679830182	CMakeFiles/stm32F103UART.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj	21cf8001ee6a171d
+164	197	1680875942714702083	CMakeFiles/stm32F103UART.elf.dir/Src/system_stm32f1xx.c.obj	2a3a6489be1f857f
