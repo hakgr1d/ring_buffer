@@ -13,6 +13,14 @@ set(CMAKE_OBJDUMP arm-none-eabi-objdump)
 set(SIZE arm-none-eabi-size)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
+#user lib dir
+set(LIB_RING_BUF "../../../src")
+
+#user source file
+set(SRC_RING_BUF "../../../src/buffer_ring.c")
+
+
+
 # project settings
 project(stm32F103UART C CXX ASM)
 set(CMAKE_CXX_STANDARD 17)
@@ -50,7 +58,8 @@ else ()
 endif ()
 
 include_directories(Inc Drivers/STM32F1xx_HAL_Driver/Inc Drivers/STM32F1xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F1xx/Include Drivers/CMSIS/Include)
-include_directories(Inc/lib/buffer)
+include_directories(${LIB_RING_BUF})
+
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 
@@ -62,7 +71,9 @@ add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR
 add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
 add_link_options(-T ${LINKER_SCRIPT})
 
-add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT} Inc/lib/buffer/buffer_ring.c)
+
+
+add_executable(${PROJECT_NAME}.elf ${SOURCES} ${SRC_RING_BUF} ${LINKER_SCRIPT} )
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)

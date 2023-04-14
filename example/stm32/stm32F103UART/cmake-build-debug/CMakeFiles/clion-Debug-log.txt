@@ -1,4 +1,4 @@
-/snap/clion/229/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/229/bin/ninja/linux/x64/ninja -G Ninja -S /home/th0m/dev/project/ring_buffer/example/stm32/stm32F103UART -B /home/th0m/dev/project/ring_buffer/example/stm32/stm32F103UART/cmake-build-debug
+/snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/234/bin/ninja/linux/x64/ninja -G Ninja -S /home/th0m/dev/project/ring_buffer/example/stm32/stm32F103UART -B /home/th0m/dev/project/ring_buffer/example/stm32/stm32F103UART/cmake-build-debug
 -- The C compiler identification is GNU 10.3.1
 -- The CXX compiler identification is GNU 10.3.1
 -- The ASM compiler identification is GNU
