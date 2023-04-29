@@ -2,9 +2,9 @@
 
 typedef struct {
 
-    volatile uint16_t head;
-    volatile uint16_t tail;
-    volatile uint16_t size_buffer;
+    uint16_t head;
+    uint16_t tail;
+    uint16_t size_buffer;
     uint8_t *buffer;
 
 } ring_buffer_t;

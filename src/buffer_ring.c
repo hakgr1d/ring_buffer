@@ -1,5 +1,21 @@
 #include "buffer_ring.h"
 
+
+uint16_t mod(uint16_t divisible, uint16_t divider){
+
+ /**
+  * @brief initializing the buffer with an array allocated on the stack
+  * @arg int16_t divisible,
+  * @arg uint16_t divider
+  * @retval residue of divisible % divider
+  */
+
+    while (divisible >= divider){
+        divisible -= divider;
+    }
+    return divisible;
+}
+
 void ring_buffer_init(uint8_t *buffer, uint16_t size, ring_buffer_t *obj) {
 
     /**
@@ -27,7 +43,7 @@ void ring_buffer_put(const uint8_t item, ring_buffer_t *obj) {
      */
 
     obj->buffer[(obj->tail)++] = item;
-    obj->tail %= obj->size_buffer;
+    obj->tail = mod(obj->tail, obj->size_buffer);
 }
 
 uint8_t ring_buffer_get(ring_buffer_t *obj) {
@@ -40,7 +56,8 @@ uint8_t ring_buffer_get(ring_buffer_t *obj) {
 
 
     uint8_t item = obj->buffer[(obj->head)++];
-    obj->head %= obj->size_buffer;
+    obj->head = mod(obj->head, obj->size_buffer);
+    //    obj->head %= obj->size_buffer;
     return item;
 }
 
